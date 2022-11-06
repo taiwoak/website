@@ -37,7 +37,7 @@ const LinkList = () => {
               <h5> Design Books </h5>
               <p>Click here to get free design book by Zuri to kickstart your career in Design</p>
             </a>
-            <a href="/website/contact" className="mt-4 mb-4 button">
+            <a href="/contact" className="mt-4 mb-4 button">
               <h5  id="contact" > 
                 Contact Me </h5>
             </a>      
