@@ -11,8 +11,8 @@ const rootElement = document.getElementById("root");
 render (
   <HashRouter>
    <Routes>
-      <Route path="/website" element={<Links />} />
-      <Route path="/website/contact" element={<Contact />} />
+      <Route path="/" element={<Links />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
     <App />
   </HashRouter>,
