@@ -9,7 +9,7 @@ import Links from './pages/Links';
 
 const rootElement = document.getElementById("root");
 render (
-  <BrowserRouter>
+  <BrowserRouter baseUrl="https://taiwoak.github.io/website">
    <Routes>
       <Route path="/" element={<Links />} />
       <Route path="/contact" element={<Contact />} />
