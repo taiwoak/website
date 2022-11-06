@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+#profile__img {
+    border-radius: 275px;
+}
+
+#slack {
+    display: none;
+}
+
+#profile_section p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #101828;
+    margin-top: 7px;
+}
+
+#web-share {
+    position: relative;
+    top: -200px;
+    left: 325px;
+}
+
+#mobile-share {
+    display: none;
+}
+
+#links_section a {
+    text-decoration: none;
+    background-color: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    width: 700px;
+    height: 70px;
+}
+
+.button {
+    background-color: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    width: 700px;
+    height: 70px;
+}
+
+#links_section h5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #101828;
+}
+
+#contact {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #101828; 
+    padding: 25px 25px;  
+}
+
+#links_section p {
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    color: #101828;
+}
+
+#twitter h5 {
+    padding: 25px 25px;
+}
+
+#books h5, #book__python h5, #pitch h5, #book__design h5, #btn__zuri h5 {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+#books p, #book__python p, #pitch p, #book__design p, #btn__zuri p {
+    padding-bottom: 15px;
+    margin-top: -10px;
+}
+
+#line {
+    background-color: #ffffff;
+    border-bottom: 1px solid #EAECF0;
+}
+
+#footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#footer p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #667085;
+    position: relative;
+    top: 10px;
+}
+
+@media (max-width: 575px) {
+
+    #web-share {
+        display: none;
+    }
+    
+    #mobile-share {
+        display: block;
+        position: relative;
+        top: -200px;
+        left: 130px;
+    }
+
+    #links_section a {
+        width: 305px;
+    }
+
+    .button {
+        width: 305px;
+    }
+
+    #links_section h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #contact {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    #links_section p {
+        font-size: 12px;
+    }
+
+    #books h5, #book__python h5, #book__design h5, #btn__zuri h5 {
+        padding-top: 10px;
+        padding-bottom: 5px;
+       
+    }
+
+    #pitch h5 {
+        padding-top: 15px;
+        padding-bottom: 5px;   
+    }
+    
+    #books p, #book__python p, #pitch p, #book__design p, #btn__zuri p {
+        padding-bottom: 10px;
+        padding-left: 6px;
+        padding-right: 6px;
+        margin-top: -12px;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 35px;
+    }
+
+    #footer p {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: start;
+    }
+
+    #zuri-logo {
+        display: block;
+        width: 138.77px;
+        height: 23px;
+    }
+
+    #i4g-logo {
+        display: block;
+        width: 99.1px;
+        height: 24px;
+    }
+
+}
