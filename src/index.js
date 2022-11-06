@@ -9,7 +9,7 @@ import Links from './pages/Links';
 
 const rootElement = document.getElementById("root");
 render (
-  BrowserRouter basename="/website"
+  <BrowserRouter basename="/website">
    <Routes>
       <Route path="/website" element={<Links />} />
       <Route path="/website/contact" element={<Contact />} />
