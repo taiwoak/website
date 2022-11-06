@@ -9,10 +9,10 @@ import Links from './pages/Links';
 
 const rootElement = document.getElementById("root");
 render (
-  <BrowserRouter>
+  BrowserRouter basename="/website"
    <Routes>
-      <Route path="/website" element={<Links />} />
-      <Route path="/website/contact" element={<Contact />} />
+      <Route path="/" element={<Links />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
     <App />
   </BrowserRouter>,
